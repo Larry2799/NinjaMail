@@ -1,0 +1,10 @@
+.nav__row{
+    display: flex;
+    height: 66px;
+    width: 100px;
+    background-color:red;
+}
+
+body{
+    background-color: aquamarine;
+}
