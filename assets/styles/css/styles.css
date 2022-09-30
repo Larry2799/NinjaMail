@@ -1,14 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;700;800;900&display=swap");
 
+html,
 body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 900;
+  height: 100%;
+}
+main {
+  flex: 1 1 auto;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+ul {
+  list-style-type: none;
 }
 
 .nav__row {
@@ -62,4 +75,56 @@ a {
 }
 .nav__button a {
   color: white;
+}
+
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px #dbdbdb solid;
+  padding-bottom: 74px;
+}
+.footer__lists {
+  display: flex;
+}
+
+.footer__column {
+}
+
+.footer__column li {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left__info {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.right__info {
+  display: flex;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 39px 35px 48px 98px;
+}
+
+.text1 {
+  margin: 0 35px;
 }
